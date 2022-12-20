@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+
+.title{
+    font-family: 'Solway', serif;
+
+}
+h4{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 10px;
+   
+}
+
+img{
+    min-width: 30%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+p{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contact_image{
+    width: 120px;
+    margin-left: 1px;
+    margin-top: 5px;
+}

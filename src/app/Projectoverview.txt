@@ -1,0 +1,31 @@
+Contact Management system : CRUD Application
+
+1. create an angular project
+2. install bootstrap and fontawesome
+3. paste cdn link of ontawesome in index.html
+4. configure bootsrap and fontawesome - angular.json
+5. configure google fonts - post @import statements in style.css
+6.create component needed for the project
+  contact manager, addcontact, updatecontact, viewcontact, pagenotfound
+  navbar-place its selector inside root component html page
+7. set up the path for each component that we need to display in webpage
+    - inside App-routing.module.ts , routes array
+    - use router_outlet selector inside appComponent.html page to view the requested component
+8. design html page for each of the components
+9. setup the server api-
+   - create server folder inside the project
+   - create db.json file
+   -open cmd from server folder
+       a. create package.json file -command: npm init
+       b.install json-server inside server folder    
+       c. update package.jsonfile script as
+       "start": "json-server --watch db.json --port 3000"
+       d. to run server use command: npm start
+10. create Model for contacts and group
+    - create model folder in src folder
+    - create myContacts.ts file
+    -create myGroup.ts file
+11. create an angular service  for making api call
+12. to get http methods - get, post,put,patch,delete
+   - import HttpClientModule in app.module.ts
+    

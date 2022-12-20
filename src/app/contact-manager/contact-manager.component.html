@@ -1,0 +1,75 @@
+<div class="container mt-3" >
+    <div class="row">
+        <div class="col">
+            <h1 style="font-family: 'Solway', serif;">Contact Management Application
+            <a routerLink="/contacts/add" class="btn btn-success">
+                <i class="fa-solid fa-user-plus"></i> &nbsp;
+
+                Add New
+            </a>
+            
+            </h1>
+            <p style="text-align: justify; font-family: 'Times New Roman', Times, serif ;"  >
+                this is dummy data : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam esse quos alias? Eveniet, dicta molestias sed ratione voluptatem saepe, in praesentium aliquam, quod cupiditate laboriosam. Recusandae dolor rem quos quibusdam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur voluptatem rem dolore numquam in dolores non. Qui, voluptate distinctio necessitatibus voluptatem odit itaque accusantium dignissimos facere, minima hic mollitia fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur architecto nostrum porro, hic quod illo praesentium nihil voluptates voluptate? Suscipit quia at maiores numquam fugiat ipsam voluptas rerum tenetur.
+            </p>
+            <div class="row">
+                <div class="col-6">
+                    <input (keyup)="search($event)"  type="text" class="form-control" placeholder="search contact here">
+                </div>
+                <div class="col-6">
+                    
+                    
+                </div>
+         </div>
+               
+              <!-- <pre>
+                {{allContacts | json}}
+              </pre> -->
+
+            <div class="container mt-2 ">
+                <div class="row">
+                   <div class="col-md-6 mt-3" *ngFor="let contact of allContacts |filter :searchKey:'name'">
+                      <div class="card list-group-item-primary">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                            <div class="col-md-3">
+                                <img style="height: 185px;" [src]="contact.photo" alt="no image" class="contact_image">
+
+                            </div>
+                            <div class="col-md-8">
+                                <!-- contact details -->
+                                <ul class="list-group">
+                                    <li class="list-group-item">Name: <b> {{contact.name}}</b></li>
+                                    <li class="list-group-item">Email: <b>{{contact.email}}</b></li>
+                                    <li class="list-group-item">mobile: <b>{{contact.mobile}}</b> </li>
+                                  </ul>
+
+                            </div>
+                            <div class="col-md-1 d-flex flex-column justify-content-center align-items-center">
+                              <!-- view -->
+                                <a routerLink="/contacts/view/{{contact.id}}" class="btn btn-warning">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                                <!-- edit -->
+                                <a routerLink="/contacts/edit/:contactId" class="btn btn-success mt-1">
+                                    <i class="fa-solid fa-pen "></i>
+                                </a>
+                                <!-- delete -->
+                                <button class="btn btn-danger mt-1">
+                                <i class="fa-solid fa-trash "></i>
+                                </button> 
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+               </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+

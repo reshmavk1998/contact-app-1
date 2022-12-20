@@ -1,0 +1,39 @@
+
+<div class="container mt-4 title">
+<div class="row">
+    <div class="col">
+        <h1>
+             <i class="fa-solid fa-eye "></i> &nbsp;
+                  View Contact Page
+            </h1>
+             <p style="text-align: justify ; font-family: 'Times New Roman', Times, serif; " >
+                this is dummy data : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam esse quos alias? Eveniet, dicta molestias sed ratione voluptatem saepe, in praesentium aliquam, quod cupiditate laboriosam. Recusandae dolor rem quos quibusdam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur voluptatem rem dolore numquam in dolores non. Qui, voluptate distinctio necessitatibus voluptatem odit itaque accusantium dignissimos facere, minima hic mollitia fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur architecto nostrum porro, hic quod illo praesentium nihil voluptates voluptate? Suscipit quia at maiores numquam fugiat ipsam voluptas rerum tenetur.
+             </p>
+     </div>
+ </div>
+
+   
+
+ <!-- view contact details -->
+   <div class="container mt-4  ">
+    <div class="row border p-5  ">
+        <div class="col-md-4"  >
+            <!-- contact image -->
+            <img width="200px" style="margin-left: 1px ; margin-top: 1px;" [src]="contact.photo" alt="no image">
+            <br>
+            <a class="btn btn-warning ms-5 mt-2" routerLink="/"><i class="fa-solid fa-circle-left" ></i>Go Back</a>
+        </div>
+        <div class="col-md-8">
+            <!-- contact details -->
+            <ul class="list-group">
+                <li class="list-group-item">Name: <b>{{contact.name}}</b></li>
+                <li class="list-group-item">Email:<b>{{contact.email}}</b></li>
+                <li class="list-group-item">Mobile: <b>{{contact.mobile}}</b></li>
+                <li class="list-group-item">Company: <b>{{contact.company}}</b></li>
+                <li class="list-group-item">Title: <b>{{contact.title}}</b></li>
+                <li class="list-group-item">Group: <b>{{groupName}}</b></li>
+              </ul>
+
+        </div>
+    </div>
+ </div>

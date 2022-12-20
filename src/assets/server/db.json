@@ -1,0 +1,104 @@
+{
+    "contacts": [
+      {
+        "id": "c1",
+        "name": "Leanne Graham",
+        "email": "Sincere@april.biz",
+        "photo":"https://img.starbiz.com/resize/750x-/2020/01/16/chris-hemsworth-f426.jpg",
+        "mobile":"9367929276",
+        "company":"Romaguera-Crona",
+        "title":"manager",
+        "groupId":"1"
+    },
+        
+        {
+          "id": "c2",
+          "name": "Ervin Howell",
+          "email": "Shanna@melissa.tv",
+          "photo": "https://tse2.mm.bing.net/th?id=OIP.hxknN5b25zel3hJCKa_xmQHaJi&pid=Api&P=0",
+          "mobile": "9876597210",
+          "company": "Deckow-Crist",
+          "title": "Network Admin",
+          "groupId": "2"
+        },
+        {
+          "id": "c3",
+          "name": "Clementine Bauch",
+          "email": "Nathan@yesenia.net",
+          "photo": "https://tse4.mm.bing.net/th?id=OIP.bnMZqZBnjB_bx2yrH54X-QHaLI&pid=Api&P=0",
+          "mobile": "9876513210",
+          "company": "Romaguera-Jacobson",
+          "title": "Tester",
+          "groupId": "3"
+        },
+        {
+          "id": "c4",
+          "name": "Patricia Lebsack",
+          "email": "Julianne.OConner@kory.org",
+          "photo": "https://qph.fs.quoracdn.net/main-qimg-183fce3cab061672b7515b55bb22c7bc",
+          "mobile": "9876503210",
+          "company": "Robel-Corkery",
+          "title": "Developer",
+          "groupId": "4"
+        },
+        {
+          "id": "c5",
+          "name": "Chelsey Dietrich",
+          "email": "Lucio_Hettinger@annie.ca",
+          "photo": "https://img.izismile.com/img/img12/20190404/640/internet_has_chosen_the_most_beautiful_hollywood_actresses_of_all_time_640_high_04.jpg",
+          "mobile": "9876543410",
+          "company": "Keebler LLC",
+          "title": "HR",
+          "groupId": "1"
+        },
+        {
+          "id": "c6",
+          "name": "Mrs. Dennis Schulist",
+          "email": "Karley_Dach@jasper.info",
+          "photo": "https://i.pinimg.com/originals/e7/0e/18/e70e1876cdd4f5537df9a817248b9477.jpg",
+          "mobile": "9876548710",
+          "company": "Considine-Lockman",
+          "title": "Developer",
+          "groupId": "2"
+        },
+        {
+          "id": "c7",
+          "name": "Kurtis Weissnat",
+          "email": "Telly.Hoeger@billy.biz",
+          "photo": "https://tse4.mm.bing.net/th?id=OIP.m3rkzh5zmIk5rDE9ib22wwHaJE&pid=Api&P=0",
+          "mobile": "9876543910",
+          "company": "Johns Group",
+          "title": "Data Analyst",
+          "groupId": "3"
+        },
+        {
+          "id": "c8",
+          "name": "Nicholas Runolfsdottir V",
+          "email": "Sherwood@rosamond.me",
+          "photo": "https://qph.fs.quoracdn.net/main-qimg-db4e696e7c0905ee34f311d49135e607",
+          "mobile": "9876753210",
+          "company": "Abernathy Group",
+          "title": "Developer",
+          "groupId": "4"
+        }
+    ],
+    "groups": [
+        {
+       "id":"1",     
+      "name": "Friends"
+    },
+    {
+        "id":"2" ,    
+       "name": "Family"
+     },
+     {
+        "id":"3" ,    
+       "name": "Collegues"
+     },
+     {
+        "id":"4" ,    
+       "name": "Social"
+     }
+    ]
+  
+}
